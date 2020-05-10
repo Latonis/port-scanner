@@ -16,5 +16,7 @@ def port_scan(port_num):
 for x in range(1,1024):
     port_scan(x)
 
+print("Target: {} | Target IP: {}".format(target, targetIP))
+
 for port in ports:
     print("Port {}: OPEN".format(port))
